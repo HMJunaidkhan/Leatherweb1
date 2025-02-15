@@ -242,3 +242,14 @@ input::placeholder {
         font-size: 14px;
     }
 }
+.product {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+.price {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #333;
+    margin-top: 5px;
+}
