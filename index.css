@@ -306,7 +306,7 @@ input::placeholder {
         
         .imgsec img {
             width: 90%;
-            max-width: 350px;
+            max-width: 300px;
             margin: 10px;
             transition: transform 0.3s ease-in-out;
         }
@@ -492,8 +492,45 @@ input::placeholder {
     margin: 10px;
 }
 .price {
-    font-size: 20px;
-    font-weight: bolder;
+    font-size: 18px;
+    font-weight: bold;
     color: #333;
     margin-top: 5px;
+}
+
+.size-chart-link {
+    display: block;
+    margin-top: 10px;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+/* Popup styles */
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Popup content */
+.popup-content {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.popup img {
+    max-width: 90%;
+    max-height: 90%;
+    border: 3px solid white;
 }
